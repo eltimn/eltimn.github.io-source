@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:eltimn/eltimn.github.io.git
+[submodule "themes/vec"]
+	path = themes/vec
+	url = https://github.com/IvanChou/hugo-theme-vec

@@ -1,0 +1,13 @@
+languageCode = "en-us"
+title = "eltimn"
+theme = "vec"
+paginate = 15
+
+[params]
+  Description = "The home of Tim Nelson"
+
+  Avater = "img/timn_avatar_small.jpg"
+  SelfIntro = "Liftafarian"
+
+  GithubID = "eltimn"
+  TwitterID = "eltimn"
