@@ -1,13 +1,17 @@
+baseurl = "http://www.eltimn.com"
 languageCode = "en-us"
 title = "eltimn"
-theme = "vec"
-paginate = 15
+paginate = 5
+disqusShortname = "eltimn"
 
 [params]
   Description = "The home of Tim Nelson"
-
-  Avater = "img/timn_avatar_small.jpg"
-  SelfIntro = "Liftafarian"
-
+  SelfIntro = "I'm Tim, a software developer. Currently focused on Scala, Lift, MongoDB, and JavaScript."
   GithubID = "eltimn"
   TwitterID = "eltimn"
+
+[menu]
+  [[menu.main]]
+    name = "post"
+    weight = 0
+    url = "/post"
