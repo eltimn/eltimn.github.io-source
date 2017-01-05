@@ -1,4 +1,4 @@
-baseurl = "http://www.eltimn.com"
+baseurl = "https://eltimn.com"
 languageCode = "en-us"
 title = "eltimn"
 paginate = 5
