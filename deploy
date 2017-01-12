@@ -4,4 +4,4 @@ set -e
 
 RSYNC_OPTS='-az --delete-after --progress --chown nelly:devops'
 
-rsync $RSYNC_OPTS public/ tim-web-1:/var/www/eltimn
+rsync $RSYNC_OPTS public/ tim-web-a:/var/www/eltimn
