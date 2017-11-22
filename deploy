@@ -2,8 +2,8 @@
 
 set -e
 
-host=tim-web-1
+host=freebsd@rzweb1
 
-RSYNC_OPTS='-az --delete-after --progress --chown nelly:devops'
+RSYNC_OPTS='-az --delete-after --progress'
 
 rsync $RSYNC_OPTS public/ ${host}:/var/www/eltimn
