@@ -2,7 +2,7 @@
 
 set -e
 
-host=freebsd@rzweb1
+host=freebsd@rzweb2
 
 RSYNC_OPTS='-az --delete-after --progress'
 
