@@ -1,10 +1,6 @@
-# eltimn.github.io-source
+# Source Code For eltimn.com Website
 
-# Resources
-
-* http://whipperstacker.com/2015/11/27/deploying-a-stand-alone-hugo-site-to-github-pages-mapped-to-a-custom-domain/
-
-* http://www.mariosanchez.org/post/minimalhugo/
+This is being hosted by [Netlify](https://app.netlify.com/) who also has control of the DNS entries for eltimn.com.
 
 # Build
 

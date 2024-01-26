@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# sync the built files to a remote server
+
 set -e
 
 host=freebsd@rzweb2
