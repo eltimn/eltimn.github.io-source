@@ -39,8 +39,8 @@
 
   <div class="content">
     <section class="posts">
-      {{ $paginator := .Paginate (.Data.Pages.GroupByDate "2006-01") }}
-      {{ range $paginator.PageGroups }}
+      {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") }}
+      {{ range $paginator.Pages.GroupByDate "2006-01" }}
       <div class="posts-archive">
         {{ $month := (print .Key "-01") }}
         <time class="posts-archive-month" datetime="{{ $month }}">{{ dateFormat "Jan 2006" $month }}</time>
@@ -51,9 +51,11 @@
         </ol>
       </div>
       {{ end }}
+      {{ if $paginator.HasNext }}
       <span class="pull-right">
-        <a href="/post/page/2/">More</a>
+        <a href="{{ $paginator.Next.URL }}">More</a>
       </span>
+      {{ end }}
     </section>
   </div>
 
